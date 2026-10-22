@@ -2,7 +2,6 @@
     "name": "repair-system/repair-system-class",
     "description": "Repair System Management - Modern OOP PHP Architecture",
     "type": "project",
-    "license": "MIT",
     "require": {
         "php": ">=8.2.0"
     },

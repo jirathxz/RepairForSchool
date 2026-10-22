@@ -5,7 +5,6 @@
 [![UI Framework](https://img.shields.io/badge/Bootstrap-5.3%20CDN-7952B3?logo=bootstrap&logoColor=white)](https://getbootstrap.com/)
 [![Icons](https://img.shields.io/badge/Font%20Awesome-6.5-528DD7?logo=font-awesome&logoColor=white)](https://fontawesome.com/)
 [![Architecture](https://img.shields.io/badge/Architecture-OOP%20PSR--4-orange)](https://www.php-fig.org/psr/psr-4/)
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
 ระบบบริหารจัดการงานแจ้งซ่อมบำรุงและครุภัณฑ์สำหรับสถานศึกษาและโรงเรียน พัฒนาด้วยสถาปัตยกรรม **PHP 8.3 OOP (PSR-4)** ร่วมกับฐานข้อมูลเชิงสัมพันธ์ **MariaDB 11.4 / MySQL** ออกแบบส่วนต่อประสานตามหลัก **Modern Flat Design** (Flat, Clean, Borderless Badges, ไร้การไล่เฉดสีรบกวนสายตา) พร้อมระบบจัดการสิทธิ์การเข้าถึง **Role-Based Access Control (RBAC 3 บทบาท)**, การติดตามสถานะแบบเรียลไทม์, คลังอะไหล่ตัดสต็อกอัตโนมัติ, การสแกนครุภัณฑ์ด้วย QR Token, แผนบำรุงรักษาเชิงป้องกัน (PM), และการพิมพ์ใบส่งงานราชการมาตรฐานขนาด A4
 
@@ -24,7 +23,7 @@
 9. [🌐 เส้นทาง URL ในระบบ (Route Map)](#-เส้นทาง-url-ในระบบ-route-map)
 10. [📡 Real-Time Status API](#-real-time-status-api)
 11. [📂 โครงสร้างไดเรกทอรี (Directory Structure)](#-โครงสร้างไดเรกทอรี-directory-structure)
-12. [📄 สัญญาอนุญาต (License)](#-สัญญาอนุญาต-license)
+12. [🎓 โครงการเพื่อการศึกษา (Educational Project)](#-โครงการเพื่อการศึกษา-educational-project)
 
 ---
 
@@ -586,6 +585,7 @@ d:\_Work\RepairSystemClass/
 
 ---
 
-## 📄 สัญญาอนุญาต (License)
+## 🎓 โครงการเพื่อการศึกษา (Educational Project)
 
-ซอฟต์แวร์นี้เผยแพร่ภายใต้สัญญาอนุญาต **[MIT License](LICENSE)** ท่านสามารถนำไปใช้งาน พัฒนาต่อยอด หรือดัดแปลงเพื่อการศึกษาและการปฏิบัติงานจริงได้อย่างอิสระ
+โครงงานระบบบริหารจัดการงานแจ้งซ่อมบำรุงและครุภัณฑ์โรงเรียน (RepairForSchool) จัดทำขึ้นเพื่อวัตถุประสงค์ในการศึกษา การค้นคว้า และการเรียนรู้การออกแบบสถาปัตยกรรมซอฟต์แวร์เชิงวัตถุ (Object-Oriented Programming & Software Design Patterns) ในรายวิชาการพัฒนาเว็บแอปพลิเคชัน
+
