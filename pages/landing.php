@@ -286,7 +286,7 @@ require_once __DIR__ . '/layout/header.php';
             <span class="text-[10px] font-mono px-2.5 py-1 rounded-xl bg-slate-700 text-slate-300 font-bold">admin</span>
           </div>
           <div class="font-black text-sm text-white">ผู้ดูแลระบบ</div>
-          <p class="text-xs text-slate-400 mt-1 mb-5">อ.สมเกียรติ ฝ่ายอาคารสถานที่</p>
+          <p class="text-xs text-slate-400 mt-1 mb-5">Alexander Wright (Admin)</p>
         </div>
         <button type="submit" class="w-full py-3 px-4 min-h-[44px] rounded-2xl bg-violet-600 hover:bg-violet-700 text-white text-xs font-bold transition-all flex items-center justify-center gap-1.5 whitespace-nowrap active:scale-95">
           <span>เข้าสู่ระบบเป็นผู้ดูแล</span>
@@ -303,7 +303,7 @@ require_once __DIR__ . '/layout/header.php';
             <span class="text-[10px] font-mono px-2.5 py-1 rounded-xl bg-slate-700 text-slate-300 font-bold">teacher01</span>
           </div>
           <div class="font-black text-sm text-white">ครู และบุคลากร</div>
-          <p class="text-xs text-slate-400 mt-1 mb-5">ครูสุดา กลุ่มสาระวิทยาศาสตร์</p>
+          <p class="text-xs text-slate-400 mt-1 mb-5">Sarah Jenkins (Teacher)</p>
         </div>
         <button type="submit" class="w-full py-3 px-4 min-h-[44px] rounded-2xl bg-slate-700 hover:bg-slate-600 text-white text-xs font-bold transition-all flex items-center justify-center gap-1.5 whitespace-nowrap active:scale-95">
           <span>เข้าสู่ระบบเป็นครู</span>
@@ -320,7 +320,7 @@ require_once __DIR__ . '/layout/header.php';
             <span class="text-[10px] font-mono px-2.5 py-1 rounded-xl bg-slate-700 text-slate-300 font-bold">tech01</span>
           </div>
           <div class="font-black text-sm text-white">ช่างเทคนิค</div>
-          <p class="text-xs text-slate-400 mt-1 mb-5">ช่างสมชาย งานซ่อมบำรุง</p>
+          <p class="text-xs text-slate-400 mt-1 mb-5">Benjamin Hayes (Technician)</p>
         </div>
         <button type="submit" class="w-full py-3 px-4 min-h-[44px] rounded-2xl bg-slate-700 hover:bg-slate-600 text-white text-xs font-bold transition-all flex items-center justify-center gap-1.5 whitespace-nowrap active:scale-95">
           <span>เข้าสู่ระบบเป็นช่าง</span>

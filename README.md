@@ -82,14 +82,14 @@
 
 ระบบมาพร้อมข้อมูลตั้งต้นและบัญชีทดสอบครบทุกบทบาท โดยทุกบัญชีใช้รหัสผ่านเดียวกัน: `password123`
 
-| ชื่อผู้ใช้งาน (Username) | รหัสผ่าน (Password) | บทบาท (Role) | ชื่อ-นามสกุล | ตำแหน่ง / แผนก |
+| ชื่อผู้ใช้งาน (Username) | รหัสผ่าน (Password) | บทบาท (Role) | ชื่อ-นามสกุล (Full Name) | ตำแหน่ง / แผนก |
 | :--- | :--- | :--- | :--- | :--- |
-| `admin` | `password123` | **Admin** | อ.สมเกียรติ บริหารงาน | ฝ่ายบริหารงานทั่วไปและอาคารสถานที่ |
-| `tech01` | `password123` | **Technician** | ช่างสมชาย มั่นคง | ช่างเทคนิคอาวุโส / งานระบบไฟฟ้าและปรับอากาศ |
-| `tech02` | `password123` | **Technician** | ช่างวิชัย ว่องไว | ช่างซ่อมบำรุง / ระบบคอมพิวเตอร์และเครือข่าย |
-| `teacher01` | `password123` | **Teacher** | ครูสุดา วงศ์ไทย | หัวหน้ากลุ่มสาระวิทยาศาสตร์และเทคโนโลยี |
-| `teacher02` | `password123` | **Teacher** | ครูอนุชา กิตติสุข | อาจารย์ประจำกลุ่มสาระคณิตศาสตร์ |
-| `staff01` | `password123` | **Teacher / Staff** | นางวิภา อมรศิลป์ | เจ้าหน้าที่ธุรการและการเงิน |
+| `admin` | `password123` | **Admin** | **Alexander Wright** | ฝ่ายบริหารงานทั่วไปและอาคารสถานที่ |
+| `tech01` | `password123` | **Technician** | **Benjamin Hayes** | ช่างเทคนิคอาวุโส / งานระบบไฟฟ้าและปรับอากาศ |
+| `tech02` | `password123` | **Technician** | **Lucas Walker** | ช่างซ่อมบำรุง / ระบบคอมพิวเตอร์และเครือข่าย |
+| `teacher01` | `password123` | **Teacher** | **Sarah Jenkins** | หัวหน้ากลุ่มสาระวิทยาศาสตร์และเทคโนโลยี |
+| `teacher02` | `password123` | **Teacher** | **Michael Anderson** | อาจารย์ประจำกลุ่มสาระคณิตศาสตร์ |
+| `staff01` | `password123` | **Teacher / Staff** | **Emily Watson** | เจ้าหน้าที่ธุรการและการเงิน |
 
 > 💡 **ฟีเจอร์ 1-Click Test Login:** ที่หน้าเข้าสู่ระบบ (`index.php?page=login`) มีปุ่มกดสลับบทบาทเป็น Admin, Technician หรือ Teacher ได้ทันทีในคลิกเดียวโดยไม่ต้องพิมพ์รหัสผ่าน เหมาะสำหรับการสาธิตและการนำเสนอผลงาน
 
@@ -401,9 +401,9 @@ php test_system.php
  RepairForSchool - Unified OOP Smoke & System Test
 ====================================================
 1. Database Status      : connected (Version: 11.4.0-MariaDB, Tables: 16)
-2. Admin Login          : PASS (อ.สมเกียรติ บริหารงาน (ผู้ดูแลระบบ), Role: admin)
-3. Tech Login           : PASS (ช่างสมชาย มั่นคง (ช่างเทคนิค/ไฟฟ้า), Role: technician)
-4. Teacher Login        : PASS (ครูสุดา วงศ์ไทย, Role: teacher)
+2. Admin Login          : PASS (Alexander Wright, Role: admin)
+3. Tech Login           : PASS (Benjamin Hayes, Role: technician)
+4. Teacher Login        : PASS (Sarah Jenkins, Role: teacher)
 5. User Profile Check   : PASS (ID: 1, admin@school.ac.th)
 6. KPI Status Counts    : Total=8, Pending=2, InProcess=3, Completed=3
 7. Overdue Tickets      : 3 tickets

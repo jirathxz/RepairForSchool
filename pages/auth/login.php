@@ -80,7 +80,7 @@ require_once __DIR__ . '/../layout/header.php';
           >
             <span class="font-medium flex items-center gap-2">
               <i class="fa-solid fa-shield-halved text-violet-600" aria-hidden="true"></i>
-              <strong>1. ผู้ดูแลระบบ</strong> — อ.สมเกียรติ
+              <strong>1. ผู้ดูแลระบบ</strong> — Alexander Wright
             </span>
             <span class="px-2 py-0.5 rounded-md bg-violet-200 text-violet-800 font-mono text-[10px] font-bold">admin</span>
           </button>
@@ -92,7 +92,7 @@ require_once __DIR__ . '/../layout/header.php';
           >
             <span class="font-medium flex items-center gap-2">
               <i class="fa-solid fa-chalkboard-user text-slate-600" aria-hidden="true"></i>
-              <strong>2. ครูและบุคลากร</strong> — ครูสุดา
+              <strong>2. ครูและบุคลากร</strong> — Sarah Jenkins
             </span>
             <span class="px-2 py-0.5 rounded-md bg-slate-200 text-slate-700 font-mono text-[10px] font-bold">teacher01</span>
           </button>
@@ -104,7 +104,7 @@ require_once __DIR__ . '/../layout/header.php';
           >
             <span class="font-medium flex items-center gap-2">
               <i class="fa-solid fa-wrench text-slate-600" aria-hidden="true"></i>
-              <strong>3. เจ้าหน้าที่ช่าง</strong> — ช่างสมชาย
+              <strong>3. เจ้าหน้าที่ช่าง</strong> — Benjamin Hayes
             </span>
             <span class="px-2 py-0.5 rounded-md bg-slate-200 text-slate-700 font-mono text-[10px] font-bold">tech01</span>
           </button>

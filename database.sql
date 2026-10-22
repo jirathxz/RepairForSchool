@@ -285,12 +285,12 @@ CREATE TABLE `notifications` (
 
 -- 1. Users
 INSERT INTO `users` (`id`, `username`, `email`, `password_hash`, `full_name`, `role`, `department`, `phone`) VALUES
-(1, 'admin', 'admin@school.ac.th', '$2y$10$pIwCkgJj.tPnOuQZV/Sh9eJa1YDnsXmSF/y6d.jepXbSxfGRgkTGW', 'อ.สมเกียรติ บริหารงาน (ผู้ดูแลระบบ)', 'admin', 'ฝ่ายบริหารงานทั่วไปและอาคารสถานที่', '081-234-5678'),
-(2, 'tech01', 'tech01@school.ac.th', '$2y$10$pIwCkgJj.tPnOuQZV/Sh9eJa1YDnsXmSF/y6d.jepXbSxfGRgkTGW', 'ช่างสมชาย มั่นคง (ช่างเทคนิค/ไฟฟ้า)', 'technician', 'งานซ่อมบำรุงและโสตทัศนูปกรณ์', '089-876-5432'),
-(3, 'tech02', 'tech02@school.ac.th', '$2y$10$pIwCkgJj.tPnOuQZV/Sh9eJa1YDnsXmSF/y6d.jepXbSxfGRgkTGW', 'ช่างวิชัย ว่องไว (ช่างคอมพิวเตอร์/ระบบ)', 'technician', 'ศูนย์เทคโนโลยีสารสนเทศ', '085-555-4321'),
-(4, 'teacher01', 'teacher01@school.ac.th', '$2y$10$pIwCkgJj.tPnOuQZV/Sh9eJa1YDnsXmSF/y6d.jepXbSxfGRgkTGW', 'ครูสุดา วงศ์ไทย', 'teacher', 'กลุ่มสาระการเรียนรู้วิทยาศาสตร์และเทคโนโลยี', '086-111-2233'),
-(5, 'teacher02', 'teacher02@school.ac.th', '$2y$10$pIwCkgJj.tPnOuQZV/Sh9eJa1YDnsXmSF/y6d.jepXbSxfGRgkTGW', 'ครูอนุชา กิตติสุข', 'teacher', 'กลุ่มสาระการเรียนรู้คณิตศาสตร์', '087-222-3344'),
-(6, 'staff01', 'staff01@school.ac.th', '$2y$10$pIwCkgJj.tPnOuQZV/Sh9eJa1YDnsXmSF/y6d.jepXbSxfGRgkTGW', 'นางวิภา เจ้าหน้าที่ธุรการ', 'teacher', 'ฝ่ายธุรการและการเงิน', '084-333-7788');
+(1, 'admin', 'admin@school.ac.th', '$2y$10$pIwCkgJj.tPnOuQZV/Sh9eJa1YDnsXmSF/y6d.jepXbSxfGRgkTGW', 'Alexander Wright', 'admin', 'ฝ่ายบริหารงานทั่วไปและอาคารสถานที่', '081-234-5678'),
+(2, 'tech01', 'tech01@school.ac.th', '$2y$10$pIwCkgJj.tPnOuQZV/Sh9eJa1YDnsXmSF/y6d.jepXbSxfGRgkTGW', 'Benjamin Hayes', 'technician', 'งานซ่อมบำรุงและโสตทัศนูปกรณ์', '089-876-5432'),
+(3, 'tech02', 'tech02@school.ac.th', '$2y$10$pIwCkgJj.tPnOuQZV/Sh9eJa1YDnsXmSF/y6d.jepXbSxfGRgkTGW', 'Lucas Walker', 'technician', 'ศูนย์เทคโนโลยีสารสนเทศ', '085-555-4321'),
+(4, 'teacher01', 'teacher01@school.ac.th', '$2y$10$pIwCkgJj.tPnOuQZV/Sh9eJa1YDnsXmSF/y6d.jepXbSxfGRgkTGW', 'Sarah Jenkins', 'teacher', 'กลุ่มสาระการเรียนรู้วิทยาศาสตร์และเทคโนโลยี', '086-111-2233'),
+(5, 'teacher02', 'teacher02@school.ac.th', '$2y$10$pIwCkgJj.tPnOuQZV/Sh9eJa1YDnsXmSF/y6d.jepXbSxfGRgkTGW', 'Michael Anderson', 'teacher', 'กลุ่มสาระการเรียนรู้คณิตศาสตร์', '087-222-3344'),
+(6, 'staff01', 'staff01@school.ac.th', '$2y$10$pIwCkgJj.tPnOuQZV/Sh9eJa1YDnsXmSF/y6d.jepXbSxfGRgkTGW', 'Emily Watson', 'teacher', 'ฝ่ายธุรการและการเงิน', '084-333-7788');
 
 -- 2. Equipment Types
 INSERT INTO `equipment_types` (`id`, `name`, `icon`, `description`) VALUES
@@ -372,26 +372,26 @@ VALUES
 -- 5. Ticket Comments
 INSERT INTO `ticket_comments` (`id`, `ticket_id`, `user_id`, `comment`, `created_at`) VALUES
 (1, 1, 4, 'เครื่องนี้จำเป็นต้องใช้สอบเก็บคะแนนวันศุกร์นี้ครับ รบกวนช่างตรวจสอบให้ด้วยครับ', '2026-09-20 08:20:00'),
-(2, 1, 1, 'รับเรื่องแล้วครับ มอบหมายช่างวิชัยดูแลให้ด่วน กำหนดเสร็จภายในวันที่ 23 นี้', '2026-09-20 09:30:00'),
+(2, 1, 1, 'รับเรื่องแล้วครับ มอบหมาย Lucas Walker ดูแลให้ด่วน กำหนดเสร็จภายในวันที่ 23 นี้', '2026-09-20 09:30:00'),
 (3, 1, 3, 'รับทราบครับ กำลังเช็คแผงบอร์ดและแรม หากมีชิ้นส่วนต้องเบิกจะแจ้งเพิ่มเติมครับ', '2026-09-20 10:15:00'),
 (4, 2, 5, 'อาการเป็นช่วงก่อนเริ่มสอน คาดว่าอาจเป็นที่สายสัญญาณ HDMI หรือหลอดภาพครับ', '2026-09-21 07:50:00'),
-(5, 3, 6, 'ขอบคุณช่างสมชายมากค่ะ ล้างแอร์เสร็จเรียบร้อย ไม่มีน้ำหยดแล้ว เย็นฉ่ำดีมากค่ะ', '2026-09-19 15:00:00'),
+(5, 3, 6, 'ขอบคุณ Benjamin Hayes มากค่ะ ล้างแอร์เสร็จเรียบร้อย ไม่มีน้ำหยดแล้ว เย็นฉ่ำดีมากค่ะ', '2026-09-19 15:00:00'),
 (6, 6, 2, 'เช็คลูกยางเดิมสึกหมดสภาพแล้วครับ ได้แจ้งฝ่ายจัดซื้อสั่งอะไหล่แล้ว คาดว่าจะถึงพรุ่งนี้ครับ', '2026-09-20 14:00:00');
 
 -- 6. Status Logs
 INSERT INTO `repair_status_logs` (`ticket_id`, `changed_by_user_id`, `previous_status`, `new_status`, `notes`) VALUES
-(1, 4, NULL, 'pending', 'ครูสุดา ส่งคำขอแจ้งซ่อม'),
-(1, 1, 'pending', 'in_process', 'ผู้ดูแลระบบมอบหมายงานให้ ช่างวิชัย (กำหนดเสร็จ 2026-09-23)'),
-(2, 5, NULL, 'pending', 'ครูอนุชา ส่งคำขอแจ้งซ่อม (เร่งด่วน)'),
-(3, 6, NULL, 'pending', 'เจ้าหน้าที่ธุรการ ส่งคำขอแจ้งซ่อม'),
-(3, 1, 'pending', 'in_process', 'ผู้ดูแลระบบมอบหมายงานให้ ช่างสมชาย'),
-(3, 2, 'in_process', 'completed', 'ช่างสมชาย ดำเนินการล้างแผงคอยล์และท่อน้ำทิ้งเสร็จสิ้น ค่าใช้จ่าย 450 บาท'),
-(4, 4, NULL, 'pending', 'ครูสุดา ส่งคำขอแจ้งซ่อม'),
-(4, 1, 'pending', 'in_process', 'ผู้ดูแลระบบมอบหมายงานให้ ช่างวิชัย'),
-(4, 3, 'in_process', 'completed', 'ช่างวิชัย เข้าหัวสาย LAN ใหม่ และทดสอบเชื่อมต่อสำเร็จ ค่าใช้จ่าย 80 บาท'),
-(5, 5, NULL, 'pending', 'ครูอนุชา ส่งคำขอแจ้งซ่อม (เร่งด่วน)'),
-(6, 6, NULL, 'pending', 'เจ้าหน้าที่ธุรการ ส่งคำขอแจ้งซ่อม'),
-(6, 1, 'pending', 'in_process', 'ผู้ดูแลระบบมอบหมายงานให้ ช่างสมชาย');
+(1, 4, NULL, 'pending', 'Sarah Jenkins ส่งคำขอแจ้งซ่อม'),
+(1, 1, 'pending', 'in_process', 'ผู้ดูแลระบบมอบหมายงานให้ Lucas Walker (กำหนดเสร็จ 2026-09-23)'),
+(2, 5, NULL, 'pending', 'Michael Anderson ส่งคำขอแจ้งซ่อม (เร่งด่วน)'),
+(3, 6, NULL, 'pending', 'Emily Watson ส่งคำขอแจ้งซ่อม'),
+(3, 1, 'pending', 'in_process', 'ผู้ดูแลระบบมอบหมายงานให้ Benjamin Hayes'),
+(3, 2, 'in_process', 'completed', 'Benjamin Hayes ดำเนินการล้างแผงคอยล์และท่อน้ำทิ้งเสร็จสิ้น ค่าใช้จ่าย 450 บาท'),
+(4, 4, NULL, 'pending', 'Sarah Jenkins ส่งคำขอแจ้งซ่อม'),
+(4, 1, 'pending', 'in_process', 'ผู้ดูแลระบบมอบหมายงานให้ Lucas Walker'),
+(4, 3, 'in_process', 'completed', 'Lucas Walker เข้าหัวสาย LAN ใหม่ และทดสอบเชื่อมต่อสำเร็จ ค่าใช้จ่าย 80 บาท'),
+(5, 5, NULL, 'pending', 'Michael Anderson ส่งคำขอแจ้งซ่อม (เร่งด่วน)'),
+(6, 6, NULL, 'pending', 'Emily Watson ส่งคำขอแจ้งซ่อม'),
+(6, 1, 'pending', 'in_process', 'ผู้ดูแลระบบมอบหมายงานให้ Benjamin Hayes');
 
 -- 7. Spare Parts (คลังอะไหล่)
 INSERT INTO `spare_parts` (`id`, `part_code`, `name`, `unit`, `unit_cost`, `category`, `cost_price`, `sell_price`, `stock_quantity`, `min_quantity`, `equipment_type_id`, `min_stock_alert`) VALUES
